@@ -69,3 +69,27 @@ body {
     width: 100vw;
     margin-top: 20px;
 }
+
+.testimonials {
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 20px;
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+    background: #fff;
+    box-shadow: 0 0 5px 0 #000;
+}
+
+.testimonials-text {
+    text-align: center;
+    font-size: 2em;
+    color: #344759;
+    margin-top: 20px;
+}
+
+.line-break {
+    width: 75vw;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}

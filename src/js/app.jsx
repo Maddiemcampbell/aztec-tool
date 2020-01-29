@@ -3,6 +3,10 @@ import Header from './header';
 import Footer from './footer';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Home from "./home";
+import About from "./about";
+import Machines from "./machines";
+import Services from "./services";
+import Contact from "./contact";
 
 class App extends Component {
     constructor(props) {
@@ -17,6 +21,10 @@ class App extends Component {
          <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home}/>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/machines" component={Machines}/>
+            <Route exact path="/services" component={Services}/>
+            <Route exact path="/contact" component={Contact}/>
             <Redirect from='*' to='/' />
           </Switch>
          </BrowserRouter>
@@ -27,3 +35,4 @@ class App extends Component {
   }
   
   export default App;
+  
