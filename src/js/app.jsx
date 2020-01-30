@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
 import Footer from './footer';
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./home";
 import About from "./about";
 import Machines from "./machines";
@@ -16,9 +16,8 @@ class App extends Component {
 
     render() {
       return (
-      <div className="list-style">
+      <div>
          <Header/>
-         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
@@ -27,7 +26,6 @@ class App extends Component {
             <Route exact path="/contact" component={Contact}/>
             <Redirect from='*' to='/' />
           </Switch>
-         </BrowserRouter>
          <Footer/>
       </div>
       );

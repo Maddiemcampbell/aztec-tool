@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Machine extends Component {
+class Machines extends Component {
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ class Machine extends Component {
     }
 }
 
-export default Machine;
+export default Machines;

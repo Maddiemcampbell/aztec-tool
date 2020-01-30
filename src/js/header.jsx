@@ -1,40 +1,36 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import About from "./about";
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
     render() {
         return (
             <div className="list-style">
                 <ul className="flex-row ul-header">
-                    <Router>
                         <li className="li-header">
-                            <Link to="/">
+                            <NavLink exact to="/" activeClassName="selected">
                                 Home
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="li-header">
-                            <Link to="/about">
+                            <NavLink exact to="/about" activeClassName="selected">
                                 About
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="li-header">
-                            <Link to="/machines">
+                            <NavLink exact to="/machines" activeClassName="selected">
                                 Machines
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="li-header">
-                            <Link to="/services">
+                            <NavLink exact to="/services" activeClassName="selected">
                                 Services
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="li-header" to="/contact">
-                            <Link to="/contact">
+                            <NavLink exact to="/contact" activeClassName="selected">
                                 Contact
-                            </Link>
+                            </NavLink>
                         </li>
-                        <Route exact path="/about" component={About} />
-                    </Router>
                 </ul>
             </div>
         )
