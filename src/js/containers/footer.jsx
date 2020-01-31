@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer-style">
-                <h5>2019 Aztec Tooling, LLC</h5>
+                <h5>2019 Aztec Tooling</h5>
             </div>
         )
     }

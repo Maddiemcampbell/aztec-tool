@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Header from './header';
-import Footer from './footer';
+import Header from './containers/header';
+import Footer from './containers/footer';
 import { Switch, Route, Redirect } from "react-router-dom";
-import Home from "./home";
-import About from "./about";
-import Machines from "./machines";
-import Services from "./services";
-import Contact from "./contact";
+import Home from "./containers/home";
+import About from "./containers/about";
+import Machines from "./containers/machines";
+import Services from "./containers/services";
+import Contact from "./containers/contact";
 
 class App extends Component {
     constructor(props) {

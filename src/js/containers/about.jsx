@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cncMain from "../assets/cncMain.jpg"
+import cncMain from "../../assets/cncMain.jpg"
 
 class About extends Component {
     render(){
