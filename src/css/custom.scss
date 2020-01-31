@@ -5,6 +5,13 @@
 
 body {
     font-family: sans-serif;
+    color: black;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .flex-row {
