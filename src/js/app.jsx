@@ -18,6 +18,7 @@ class App extends Component {
       return (
       <div>
          <Header/>
+         <div className="content-container">
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
@@ -26,6 +27,8 @@ class App extends Component {
             <Route exact path="/contact" component={Contact}/>
             <Redirect from='*' to='/' />
           </Switch>
+         </div>
+           
          <Footer/>
       </div>
       );
