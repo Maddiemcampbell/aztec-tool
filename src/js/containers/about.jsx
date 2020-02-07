@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import cncMain from "../../assets/cncMain.jpg"
 
 class About extends Component {

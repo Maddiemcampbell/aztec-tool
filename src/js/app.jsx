@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Header from './containers/header';
-import Footer from './containers/footer';
+import React, { Component } from "react";
+import Header from "./containers/header";
+import Footer from "./containers/footer";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./containers/home";
 import About from "./containers/about";
@@ -25,7 +25,7 @@ class App extends Component {
             <Route exact path="/machines" component={Machines}/>
             <Route exact path="/services" component={Services}/>
             <Route exact path="/contact" component={Contact}/>
-            <Redirect from='*' to='/' />
+            <Redirect from="*" to="/" />
           </Switch>
          </div>
            

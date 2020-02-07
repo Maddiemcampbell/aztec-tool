@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import About from './about';
-import Customers from '../components/customers';
+import React, { Component } from "react";
+import About from "./about";
+import Customers from "../components/customers";
 
 class Home extends Component {
     constructor(props) {
