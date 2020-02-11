@@ -13,7 +13,7 @@ class Services extends Component {
                         <li className="services-item">Services</li>
                         <li className="services-item">Services</li>
                     </ul>
-                    <p className="services-description">More description: Lorem ipsum dolor sit amet,
+                    <p className="services-description">Description: Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna
                         aliqua. Ut enim ad minim veniam, quis nostrud
@@ -29,7 +29,7 @@ class Services extends Component {
                         <li className="services-item">Services</li>
                         <li className="services-item">Services</li>
                     </ul>
-                    <p className="services-description">More description: Lorem ipsum dolor sit amet,
+                    <p className="services-description">Description: Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna
                         aliqua. Ut enim ad minim veniam, quis nostrud
@@ -45,7 +45,7 @@ class Services extends Component {
                         <li className="services-item">Services</li>
                         <li className="services-item">Services</li>
                     </ul>
-                    <p className="services-description">More description: Lorem ipsum dolor sit amet,
+                    <p className="services-description">Description: Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna
                         aliqua. Ut enim ad minim veniam, quis nostrud

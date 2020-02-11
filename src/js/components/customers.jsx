@@ -6,7 +6,7 @@ class Customers extends Component {
         return (
             <div>
                 <img className="image-main" src={cncMachine}></img>
-                <h3 className="testimonials-text">Customer Success Stories</h3>
+                <h3 className="header-text">Customer Success Stories</h3>
                 <hr className="line-break"/>
                 <div className="testimonials">
                     <p>"Shred all toilet paper and spread around the house good now the other hand,
