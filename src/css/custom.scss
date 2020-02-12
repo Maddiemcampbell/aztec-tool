@@ -12,7 +12,7 @@ html {
 body {
     display: block;
     height: 100%;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: black;
 }
 
@@ -62,19 +62,15 @@ a:-webkit-any-link:focus {
 }
 
 .text-box {
-    margin-top: 20px;
-    margin-left: 140px;
-    margin-right: 140px;
-    padding-bottom: 40px;
-    padding: 30px;
+    margin: 20px 140px 0px 140px;
+    padding: 30px 30px 40px 30px;
     background-color: rgb(225, 225, 225);
 }
 
 .image-main {
     width: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 0px auto;
     padding-top: 20px;
 }
 
@@ -89,27 +85,22 @@ a:-webkit-any-link:focus {
     justify-content: center;
     align-items: center;
     background: #344759;
-    color: #cbcbcb;
-    position: absolute;
+    color: #e8e8e8;
     width: 100vw;
     margin-top: 20px;
     max-height: 200px;
-    width: 100vw;
-    color: #b7b7b7;
-    max-height: 200px;
-    width: 100vw;
-    color: #b7b7b7;
     position: absolute;
     bottom: 0;
     left: 0;
     overflow: hidden;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .testimonials {
-    margin-left: 140px;
-    margin-right: 140px;
     padding: 20px;
-    margin-top: 30px;
+    margin: 30px 140px 0px 140px;
     border-bottom: 1px solid grey;
     background: #fff;
     box-shadow: 0 0 5px 0 #000;
@@ -127,9 +118,7 @@ a:-webkit-any-link:focus {
 
 .line-break {
     width: 75vw;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 20px auto auto;
 }
 
 .flex-column {
@@ -141,20 +130,16 @@ a:-webkit-any-link:focus {
 .contact-input {
     height: 38px;
     width: 600px;
-    margin-top: 15px;
-    margin-left: 50px;
+    margin: 15px 50px 0px;
     padding: 6px 10px;
     background-color: #fff;
     border: 1.5px solid #344759;
     border-radius: 4px;
-    box-shadow: none;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
 }
 
 .contact-text-box {
-    margin-top: 15px;
-    margin-left: 50px;
+    margin: 15px 50px 0px;
     padding: 6px 10px;
     height: 68px;
     width: 600px;
@@ -163,7 +148,6 @@ a:-webkit-any-link:focus {
     border-radius: 4px;
     box-shadow: none;
     resize: none;
-    font-family: 'Raleway', sans-serif;
 }
 
 .contact-button {
@@ -171,11 +155,9 @@ a:-webkit-any-link:focus {
     height: 38px;
     width: 100px;
     padding: 0px 10px 0px 10px;
-    margin-top: 15px;
     color: #555;
     text-align: center;
-    margin-right: 10px;
-    margin-left: 50px;
+    margin: 15px 10px 0px 50px;
     font-size: 11px;
     font-weight: 600;
     line-height: 38px;
@@ -188,7 +170,6 @@ a:-webkit-any-link:focus {
     border: 1.5px solid #344759;
     cursor: pointer;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
 }
 
 .contact-download::-webkit-file-upload-button {
@@ -196,8 +177,7 @@ a:-webkit-any-link:focus {
 }
 
 .contact-download::before {
-    margin-left: 50px;
-    margin-top: 15px;
+    margin: 15px 0px 0px 50px;
     content: 'Choose a file';
     display: inline-block;
     background: linear-gradient(top, #f9f9f9, #e3e3e3);
@@ -210,7 +190,6 @@ a:-webkit-any-link:focus {
     font-weight: 400;
     font-size: 10pt;
     color: #555;
-    font-family: 'Raleway', sans-serif;
 }
 
 .contact-download:hover::before {
@@ -229,9 +208,7 @@ input[type="file"] {
 
 .contact-header {
     color: #344759;
-    margin-left: 50px;
-    margin-top: 40px;
-    margin-bottom: 15px;
+    margin: 40px 0px 15px 40px;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -263,8 +240,7 @@ input[type="file"] {
 
 .services-list {
     list-style-type: circle;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 20px 0px 0px 30px;
 }
 
 .services-title {

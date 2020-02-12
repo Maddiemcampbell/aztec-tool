@@ -1,23 +1,14 @@
 {
   "name": "react-parcel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Corporate website for Aztec Tooling",
   "main": "index.js",
   "scripts": {
     "start": "node server",
     "dev": "NODE_ENV=development parcel src/index.html --open",
     "build": "NODE_ENV=production parcel build src/index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SanDiegoCodeSchool/react-parcel.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SanDiegoCodeSchool/react-parcel/issues"
-  },
-  "homepage": "https://github.com/SanDiegoCodeSchool/react-parcel#readme",
+  "author": "Madeline Campbell",
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
