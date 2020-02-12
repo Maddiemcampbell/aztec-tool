@@ -148,7 +148,7 @@ a:-webkit-any-link:focus {
 .contact-input {
     height: 38px;
     width: 600px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 50px;
     padding: 6px 10px;
     background-color: #fff;
@@ -160,7 +160,7 @@ a:-webkit-any-link:focus {
 }
 
 .contact-text-box {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 50px;
     padding: 6px 10px;
     height: 68px;
@@ -178,7 +178,7 @@ a:-webkit-any-link:focus {
     height: 38px;
     width: 100px;
     padding: 0px 10px 0px 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     color: #555;
     text-align: center;
     margin-right: 10px;
@@ -204,20 +204,17 @@ a:-webkit-any-link:focus {
 
 .contact-download::before {
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 15px;
     content: 'Choose a file';
     display: inline-block;
     background: linear-gradient(top, #f9f9f9, #e3e3e3);
     border: 1.5px solid #344759;
     border-radius: 3px;
-    padding: 5px 8px;
-    outline: none !important;
-    box-shadow: none !important;
+    padding: 8px 8px;
     white-space: nowrap;
     cursor: pointer;
     letter-spacing: .1rem;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 10pt;
     color: #555;
     font-family: 'Raleway', sans-serif;
@@ -233,8 +230,8 @@ a:-webkit-any-link:focus {
 
 input[type="file"] {
     font-size: 0px;
-    outline: none !important;
-    box-shadow: none !important;
+    outline: none;
+    box-shadow: none;
 }
 
 .contact-header {
@@ -252,7 +249,7 @@ input[type="file"] {
     text-align: left;
     line-height: 150%;
     letter-spacing: -.5px;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, .1), 0 0 0 2px #fff, 0.3em 0.3em 1em rgba(0, 0, 0, .3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, .1), 0 0 0 2px #344759, 0.3em 0.3em 1em rgba(0, 0, 0, .3);
     margin: 20px;
     display: inline-block;
     position: relative;
